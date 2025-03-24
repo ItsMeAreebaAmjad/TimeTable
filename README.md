@@ -26,5 +26,5 @@ Auto Timetable Generator is a web-based application built using the **MERN stack
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/auto-timetable-generator.git
+   git clone https://github.com/ItsMeAreebaAmjad/TimeTable
    cd auto-timetable-generator
