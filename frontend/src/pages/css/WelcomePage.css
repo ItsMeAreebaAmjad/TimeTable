@@ -1,0 +1,118 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Bubble container and bubbles */
+.bubble-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0; /* Ensure bubbles are behind the content */
+}
+
+.bubble {
+  position: absolute;
+  bottom: -150px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: float 15s infinite ease-in-out;
+}
+
+.bubble1 {
+  width: 150px;
+  height: 150px;
+  left: 10%;
+  animation-duration: 12s;
+}
+
+.bubble2 {
+  width: 100px;
+  height: 100px;
+  left: 40%;
+  animation-duration: 18s;
+}
+
+.bubble3 {
+  width: 200px;
+  height: 200px;
+  left: 70%;
+  animation-duration: 20s;
+}
+
+.bubble4 {
+  width: 80px;
+  height: 80px;
+  left: 85%;
+  animation-duration: 16s;
+}
+
+.bubble5 {
+  width: 120px;
+  height: 120px;
+  left: 60%;
+  animation-duration: 10s;
+}
+
+/* Float animation for bubbles */
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-500px) translateX(30px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+}
+}
+/* Typing animation */
+/* Typing animation with slower speed, italic font, and larger size */
+.typing-effect {
+  display: inline-block;
+  color: yellow;
+  font-size: 4rem; /* Increased font size */
+  font-style: italic; /* Italic style */
+  border-right: 2px solid rgba(255,255,255,0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 22ch; /* Set width to fit the text */
+  animation: typing 8s steps(22) infinite, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 22ch; /* Full width of "Time Table Generator" */
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255,255,255,0.75);
+  }
+}
+
+/* Styling for main content */
+h1 {
+  z-index: 1;
+}
+
+button {
+  z-index: 1;
+}
