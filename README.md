@@ -24,10 +24,10 @@ Auto Timetable Generator is a web-based application built using the **MERN stack
 
   ## Screenshots
   ![Screenshot1](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/image1.png)
-  ![Screenshot2](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/image2.png)
-  ![Screenshot3](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/image3.png)
-  ![Screenshot4](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/image4.png)
-  ![Screenshot5](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/image5.png)
+  ![Screenshot2](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/Image2.png)
+  ![Screenshot3](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/Image3.png)
+  ![Screenshot4](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/Image4.png)
+  ![Screenshot5](https://github.com/ItsMeAreebaAmjad/TimeTable/blob/main/Image5.png)
 
 ## Installation
 
